@@ -1,0 +1,14 @@
+{
+    "name": "webpack-boilerplate",
+    "version": "1.0.0",
+    "description": "A simple (but usefull) Webpack Boilerplate",
+    "main": "index.js",
+    "scripts": {
+      "start": "node src/index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["javascript", "webpack", "boilerplate", "frontend", "builder"],
+    "author": "Francesco Sciuti",
+    "license": "ISC"
+  }
+  
