@@ -14,6 +14,7 @@
       "ecmaVersion": 2018,
       "sourceType": "module"
   },
+  "ignorePatterns": ["build-utils/", "node_modules/"],
   "rules": {
     "max-len": ["warn", { "code": 120 }],
     "no-console": "off",
