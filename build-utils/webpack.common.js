@@ -8,12 +8,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js)$/,
         exclude: /node_modules/,
-        loader: 'eslint-loader',
-        options: {},
+        loader: ['babel-loader', 'eslint-loader'],
       },
     ],
+  },
+  resolve: {
+    extensions: ['*', '.js'],
   },
   plugins: [
     new CleanWebpackPlugin(),
