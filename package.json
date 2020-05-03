@@ -1,14 +1,24 @@
 {
-    "name": "webpack-boilerplate",
-    "version": "1.0.0",
-    "description": "A simple (but usefull) Webpack Boilerplate",
-    "main": "index.js",
-    "scripts": {
-      "start": "node src/index.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": ["javascript", "webpack", "boilerplate", "frontend", "builder"],
-    "author": "Francesco Sciuti",
-    "license": "ISC"
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple (but usefull) Webpack Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "webpack",
+    "boilerplate",
+    "frontend",
+    "builder"
+  ],
+  "author": "Francesco Sciuti",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
-  
+}
